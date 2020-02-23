@@ -1,0 +1,13 @@
+<div class="card text-center">
+  <!-- <div class="card-header">
+    Featured
+  </div> -->
+  <div class="card-body">
+    <h5 class="card-title">All Player's List</h5>
+    <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let users of lists">{{users.name}}</li>
+    </ul>
+  </div>
+</div>

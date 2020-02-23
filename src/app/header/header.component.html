@@ -1,0 +1,14 @@
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <a class="navbar-brand">RedHat</a>
+  <form class="form-inline">
+    <!-- <input class="form-control mr-sm-2" type="search" id="myInput" placeholder="Search" aria-label="Search" (keyup)="doSomething($event.target.value)"> -->
+    <!-- <input class="form-control mr-sm-2" type="search" id="myInput" placeholder="Search" aria-label="Search"> -->
+    <input  class="form-control mr-sm-2" type="search" #inputstring (keyup)="doSomething(inputstring.value)"/>
+
+  </form>
+</nav>
+
+<!-- ar.filter(function(a) {
+	var regx = /(I)/gmi;
+	return regx.test(a);
+}) -->
